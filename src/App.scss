@@ -1,0 +1,56 @@
+.App {
+	text-align: center;
+	width: 1440px;
+	margin: 0px auto;
+	background-color: rgb(243, 242, 242);
+	@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&display=swap");
+	.header {
+		text-align: center;
+		font-family: "Permanent Marker", cursive;
+		padding-top: 20px;
+		margin-bottom: 30px;
+	}
+	.main {
+		.nav {
+			ul {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				gap: 30px;
+				padding: 0px;
+				margin-bottom: 30px;
+
+				li {
+					list-style-type: none;
+					font-family: "Kaushan Script", cursive;
+					.el-button {
+						width: 120px;
+						height: 25px;
+					}
+					:hover {
+						cursor: pointer;
+					}
+				}
+			}
+		}
+		.portfolio {
+			margin: 0px auto;
+
+			.portfolio-elements {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				gap: 15px;
+				justify-content: center;
+				img {
+					width: 350px;
+				}
+			}
+		}
+	}
+}
+.clicked {
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: rgb(100, 100, 100);
+}

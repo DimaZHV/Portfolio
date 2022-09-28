@@ -1,38 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&display=swap");
 .App {
   text-align: center;
+  width: 1440px;
+  margin: 0px auto;
+  background-color: #f3f2f2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .header {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  padding-top: 20px;
+  margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App .main .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  padding: 0px;
+  margin-bottom: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.App .main .nav ul li {
+  list-style-type: none;
+  font-family: "Kaushan Script", cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .main .nav ul li .el-button {
+  width: 120px;
+  height: 25px;
 }
+
+.App .main .nav ul li :hover {
+  cursor: pointer;
+}
+
+.App .main .portfolio {
+  margin: 0px auto;
+}
+
+.App .main .portfolio .portfolio-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .main .portfolio .portfolio-elements img {
+  width: 350px;
+}
+
+.clicked {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #646464;
+}
+/*# sourceMappingURL=App.css.map */
