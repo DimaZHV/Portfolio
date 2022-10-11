@@ -110,14 +110,14 @@ function App() {
 						{show
 							? proj.map((el) => (
 									<div key={el.href} className="portfolio-element">
-										<a href={el.href}>
+										<a href={el.href} target={"_blank"}>
 											<img src={el.src} alt="" />
 										</a>
 									</div>
 							  ))
 							: elem.map((el) => (
 									<div key={el.href} className="portfolio-element">
-										<a href={el.href}>
+										<a href={el.href} target={"_blank"}>
 											<img src={el.src} alt="" />
 										</a>
 									</div>
