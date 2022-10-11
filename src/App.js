@@ -48,7 +48,7 @@ function App() {
 		setElem(proj.filter((item) => item.category == stack));
 		setShow(false);
 	}
-
+	const buttons = ["ALL", "HTML/CSS", "HTML/CSS/JS", "React"];
 	return (
 		<div className="App">
 			<div className="header">
@@ -57,52 +57,31 @@ function App() {
 			<div className="main">
 				<div className="nav">
 					<ul>
-						<li>
-							<div
-								onClick={() => (setShow(true), setElem([]))}
-								className={show ? "el-button clicked" : "el-button"}
-							>
-								ALL
-							</div>
-						</li>
-						<li>
-							<div
-								onClick={() => filt("HTML/CSS")}
-								className={
-									elem[0]?.category == "HTML/CSS"
-										? "el-button clicked"
-										: "el-button"
-								}
-							>
-								HTML/CSS
-							</div>
-						</li>
-
-						<li>
-							<div
-								onClick={() => filt("HTML/CSS/JS")}
-								className={
-									elem[0]?.category == "HTML/CSS/JS"
-										? "el-button clicked"
-										: "el-button"
-								}
-							>
-								HTML/CSS/JS
-							</div>
-						</li>
-
-						<li>
-							<div
-								onClick={() => filt("React")}
-								className={
-									elem[0]?.category == "React"
-										? "el-button clicked"
-										: "el-button"
-								}
-							>
-								React
-							</div>
-						</li>
+						{buttons.map((el) =>
+							el == "ALL" ? (
+								<li key={el}>
+									<div
+										onClick={() => (setShow(true), setElem([]))}
+										className={show ? "el-button clicked" : "el-button"}
+									>
+										ALL
+									</div>
+								</li>
+							) : (
+								<li key={el}>
+									<div
+										onClick={() => filt(el)}
+										className={
+											elem[0]?.category == el
+												? "el-button clicked"
+												: "el-button"
+										}
+									>
+										{el}
+									</div>
+								</li>
+							)
+						)}
 					</ul>
 				</div>
 				<div className="portfolio">
