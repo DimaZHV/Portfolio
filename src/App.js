@@ -5,6 +5,8 @@ import vaxi from "./img/Screenshot_vaxi.png";
 import pets from "./img/Screenshot_pets.png";
 import travel from "./img/Screenshot_travel.png";
 import ann from "./img/Screenshot_Ann-portfolio.png";
+import game_letters from "./img/game_letters.png";
+
 import { Profiler, useState } from "react";
 
 function App() {
@@ -41,6 +43,11 @@ function App() {
 			src: ann,
 			href: "https://dimazhv.github.io/Portfolio-Ann/",
 			category: "HTML/CSS",
+		},
+		{
+			src: game_letters,
+			href: "https://dimazhv.github.io/itera-game/",
+			category: "React",
 		},
 	];
 
