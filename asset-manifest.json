@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ce251ce3.css",
-    "main.js": "/Portfolio/static/js/main.100c066c.js",
+    "main.css": "/Portfolio/static/css/main.fa3cf0bf.css",
+    "main.js": "/Portfolio/static/js/main.e4f4bf9b.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Screenshot_travel.png": "/Portfolio/static/media/Screenshot_travel.56b1a0acb95ca27e8c76.png",
     "static/media/Screenshot_Ann-portfolio.png": "/Portfolio/static/media/Screenshot_Ann-portfolio.10c83f2e89f3cef68370.png",
     "static/media/Screenshot_gocows.png": "/Portfolio/static/media/Screenshot_gocows.0e412c317a0c65ae8592.png",
     "static/media/Screenshot_vaxi.png": "/Portfolio/static/media/Screenshot_vaxi.039c0669200eb4d2a090.png",
     "static/media/Screenshot_seedra.png": "/Portfolio/static/media/Screenshot_seedra.beac90e88720f612b6d4.png",
+    "static/media/Cocktails.png": "/Portfolio/static/media/Cocktails.d5924a3842b7e88702c8.png",
     "static/media/Screenshot_pets.png": "/Portfolio/static/media/Screenshot_pets.0c2f53086af28dce3316.png",
     "static/media/game_letters.png": "/Portfolio/static/media/game_letters.1142c938396086491775.png",
     "index.html": "/Portfolio/index.html",
-    "main.ce251ce3.css.map": "/Portfolio/static/css/main.ce251ce3.css.map",
-    "main.100c066c.js.map": "/Portfolio/static/js/main.100c066c.js.map",
+    "main.fa3cf0bf.css.map": "/Portfolio/static/css/main.fa3cf0bf.css.map",
+    "main.e4f4bf9b.js.map": "/Portfolio/static/js/main.e4f4bf9b.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce251ce3.css",
-    "static/js/main.100c066c.js"
+    "static/css/main.fa3cf0bf.css",
+    "static/js/main.e4f4bf9b.js"
   ]
 }
