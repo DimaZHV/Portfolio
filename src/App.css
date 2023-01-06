@@ -1,77 +1,56 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&display=swap");
 .App {
   text-align: center;
   width: 1440px;
   height: 100%;
   margin: 0px auto;
-  background-color: #f3f2f2;
+  background-color: rgb(243, 242, 242);
+  @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&display=swap");
 }
-
 .App .header {
   text-align: center;
   font-family: "Permanent Marker", cursive;
   padding-top: 20px;
   margin-bottom: 30px;
 }
-
 .App .main .nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  justify-content: center;
   gap: 30px;
   padding: 0px;
   margin-bottom: 30px;
 }
-
 .App .main .nav ul li {
   list-style-type: none;
   font-family: "Kaushan Script", cursive;
 }
-
 .App .main .nav ul li .el-button {
   width: 120px;
   height: 25px;
 }
-
 .App .main .nav ul li :hover {
   cursor: pointer;
 }
-
 .App .main .portfolio {
   margin: 0px auto;
 }
-
 .App .main .portfolio .portfolio-elements {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 15px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
-.App .main .portfolio .portfolio-elements img {
+.App .main .portfolio .portfolio-elements .portfolio-element {
   width: 350px;
+  height: 200px;
 }
-
-.App .main .portfolio .portfolio-elements img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: 0.4s;
+.App .main .portfolio .portfolio-elements .portfolio-element img {
+  width: 350px;
+  height: 200px;
+}
+.App .main .portfolio .portfolio-elements .portfolio-element img:hover {
+  transform: scale(1.2);
   transition: 0.4s;
   border-radius: 15px;
 }
@@ -79,6 +58,5 @@
 .clicked {
   border: 2px solid black;
   border-radius: 5px;
-  background-color: #646464;
-}
-/*# sourceMappingURL=App.css.map */
+  background-color: rgb(100, 100, 100);
+}/*# sourceMappingURL=App.css.map */

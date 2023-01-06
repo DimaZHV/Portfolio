@@ -6,14 +6,20 @@ import pets from "./img/Screenshot_pets.png";
 import travel from "./img/Screenshot_travel.png";
 import ann from "./img/Screenshot_Ann-portfolio.png";
 import game_letters from "./img/game_letters.png";
+import cocktails from "./img/Cocktails.png";
 
-import { Profiler, useState } from "react";
+import { useState } from "react";
 
 function App() {
 	const [elem, setElem] = useState([]);
 	const [show, setShow] = useState(true);
 
 	let proj = [
+		{
+			src: cocktails,
+			href: "https://kyryl5.github.io/games-coctails-app/",
+			category: "React",
+		},
 		{
 			src: gocows,
 			href: "https://dimazhv.github.io/GOCOWS/",
